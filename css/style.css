@@ -4386,9 +4386,16 @@ a.btnseemore {
 }
 
 #section1 {
-    
-    background-position: right center;
+    background-image: url(../img/home/portada_mobile.jpg);
+    background-position: right top;
+    background-size: 100% 100%;
    
+}
+
+#section1 h1 {
+  
+  letter-spacing: 0;
+  
 }
 
 #section3 {
@@ -4408,6 +4415,13 @@ a.btnseemore {
   margin-top: 0px;
 }
 
+#section6 .txtcircles {
+  margin-left: 0px;
+  color: #FCC300;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
 #section7 {
   
   background-position: 0px 136px;
@@ -4421,7 +4435,7 @@ a.btnseemore {
 
 #section7 img.imgorganimob {
   display: block;
-  width: 100%;
+  width: 85%;
   margin:40px auto;
   
 }
@@ -4922,6 +4936,15 @@ a.btnseemore {
   padding: 20px 15px;
   margin-top: 0;
   width: 100%;
+}
+
+#prerec1 {
+  background-image: url(../img/pag11/dotsbg1.png);
+  background-position: top left;
+  background-repeat: repeat-y;
+  background-size: 200px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
